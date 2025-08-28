@@ -22,12 +22,12 @@ dependencies {
 # Listening to events
 ```java
 import com.google.common.eventbus.Subscribe;
-import me.hexye.elitebazaarapi.EBAPI;
-import me.hexye.elitebazaarapi.events.BuyOrderFilled;
+import me.hexye.eliteauctionsapi.EBAPI;
+import me.hexye.eliteauctionsapi.events.AuctionCreated;
 
 public class MyListener {
     public MyListener() {
-        EAAPI.getEventBus().register(this)
+        EAAPI.getEventBus().register(this);
     }
 
     @Subscribe
