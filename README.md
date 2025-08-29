@@ -22,7 +22,7 @@ dependencies {
 # Listening to events
 ```java
 import com.google.common.eventbus.Subscribe;
-import me.hexye.eliteauctionsapi.EBAPI;
+import me.hexye.eliteauctionsapi.EAAPI;
 import me.hexye.eliteauctionsapi.events.AuctionCreated;
 
 public class MyListener {
